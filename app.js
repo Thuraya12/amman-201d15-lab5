@@ -92,7 +92,6 @@ function sumArray(sumArr) {
   let sum2= sum(sumArr[0], sumArr[1]);
   let sumb= sum (sum2[0], sumArr[2]);
 
-  console.log(sumb);
   return [sumb[0],`${sumArr} was passed in as an array of numbers, and ${sumb[0]} is their sum.` ]
   //eslint-disable-line
 }
